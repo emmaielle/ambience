@@ -19,6 +19,7 @@ Curated development environment must haves for my future self
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Customizable extension for colorizing matching brackets
 - [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)- Highlights matching closing or opening tag.
 - [Indented Block Highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting) - Highlights everything covered by the currently selected line's indentation level.
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML/JSX tag.
 
 
 ### Extension support
@@ -36,4 +37,4 @@ Curated development environment must haves for my future self
 - [Rainglow](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow) - Many VSCode themes.
 - [gitignore](https://marketplace.visualstudio.com/items?itemName=michelemelluso.gitignore#overview) - Right click on the file to be added in `.gitignore`.
 - [reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload) - Adds reload button to status bar in the right-bottom of your VSCode editor.
-
+- [Duplicate Action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate) - Ability to duplicate files in VS Code.
