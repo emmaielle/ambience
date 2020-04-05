@@ -1,6 +1,7 @@
 # Ambience
 Curated development environment must haves for my future self
 
+## VSCode
 
 ### Work Optimization
 
@@ -38,3 +39,15 @@ Curated development environment must haves for my future self
 - [gitignore](https://marketplace.visualstudio.com/items?itemName=michelemelluso.gitignore#overview) - Right click on the file to be added in `.gitignore`.
 - [reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload) - Adds reload button to status bar in the right-bottom of your VSCode editor.
 - [Duplicate Action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate) - Ability to duplicate files in VS Code.
+
+## Terminal
+
+### Homebrew
+
+- `brew install imagemagik` [Imagemagik](https://imagemagick.org/index.php) - Convert an image from one format to another format easily
+- `brew install zsh` - szh shell
+- `brew install speedtest-cli` [Speedtest](https://formulae.brew.sh/formula/speedtest-cli) - Checks the speed of your internet connection
+
+
+
+
