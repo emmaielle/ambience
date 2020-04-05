@@ -1,0 +1,14 @@
+# Please add the following to your ~/.gitconfig:
+[alias]
+        co = checkout
+        ci = commit
+        br = branch
+        st = status
+        ac = !git add -A && git commit
+        p = push
+        # shows all available aliases
+        alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+        # provides a visual aesthetic for logging commit history
+        ls = log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset' --graph --all
+        # removes merged branches
+        clear = "!git branch —-merged | grep -v ‘*’ | xargs -n 1 git branch -d"

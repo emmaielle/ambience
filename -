@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+	email = moira.lasserre@gmail.com
+	name = Moi
+	signingkey = B4E0AC73D7F67D9B
+# Please adapt and uncomment the following lines:
+#	name = emmaielle
+#	email = moira.lasserre@gmail.com
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	ac = !git add -A && git commit
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	p = push
+	clear = "!git branch —-merged | grep -v ‘*’ | xargs -n 1 git branch -d"
+	ls = log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset' --graph --all
